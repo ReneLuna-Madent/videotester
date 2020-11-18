@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*
+    p:first-child {
+        color: royalblue;
+    }
+    p:last-child {
+        color:seagreen;
+    }
+    */
+    p::first-letter {
+        color: rebeccapurple;
+        font-size: 20px;
+    }
+
+    p:nth-child(2n) {
+        color: springgreen;
+    }
+    p:nth-child(2n+1) {
+        color: orangered;
+    }
+</style>
+<body>
+    <p>😺 Gato</p>
+    <p> Diablo</p>
+    <p>🧟 Zombie</p>
+    <p>🎅 Santa</p>
+
+</body>
+</html>
